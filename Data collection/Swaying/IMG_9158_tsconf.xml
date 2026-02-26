@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeseries date="2025-11-13T16:49:23-05:00" version="1.0">
+    <tracksource sample-type="Discontinuous Rate"
+        source-url="file:///Users/ishitadatta/GeorgiaTech/Sem 3/Animal-Interation/Data collection/Swaying/imu_gyro_for_elan.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Gx">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="0.0"/>
+            <color>255,204,204</color>
+        </track>
+        <track derivative="0" name="Gy">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="2" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="0.0"/>
+            <color>153,255,153</color>
+        </track>
+        <track derivative="0" name="Gz">
+            <property key="detect-range" value="false"/>
+            <sample-position>
+                <pos col="3" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="100.0" min="0.0"/>
+            <color>204,204,255</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Discontinuous Rate"
+        source-url="file:///Users/ishitadatta/GeorgiaTech/Sem 3/Animal-Interation/Data collection/Swaying/imu_accel_for_elan.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="Ax">
+            <property key="detect-range" value="true"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="0.75" min="-1.07"/>
+            <color>204,0,0</color>
+        </track>
+        <track derivative="0" name="Ay">
+            <property key="detect-range" value="true"/>
+            <sample-position>
+                <pos col="2" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="1.05" min="-0.75"/>
+            <color>0,153,0</color>
+        </track>
+        <track derivative="0" name="Az">
+            <property key="detect-range" value="true"/>
+            <sample-position>
+                <pos col="3" row="0"/>
+            </sample-position>
+            <description/>
+            <units/>
+            <range max="1.66" min="-0.55"/>
+            <color>0,0,204</color>
+        </track>
+    </tracksource>
+</timeseries>

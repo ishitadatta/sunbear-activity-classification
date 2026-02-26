@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeseries date="2025-11-12T23:03:01-05:00" version="1.0">
+    <tracksource sample-type="Continuous Rate"
+        source-url="file:///Users/ishitadatta/GeorgiaTech/Sem 3/Animal-Interation/Data collection/imu_gyro_clean_for_elan.txt" time-column="0">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+        <track derivative="0" name="GX">
+            <property key="detect-range" value="true"/>
+            <sample-position>
+                <pos col="1" row="0"/>
+            </sample-position>
+            <description/>
+            <units>deg/s</units>
+            <range max="76.17" min="-79.47"/>
+            <color>255,102,102</color>
+        </track>
+        <track derivative="0" name="GY">
+            <property key="detect-range" value="true"/>
+            <sample-position>
+                <pos col="2" row="0"/>
+            </sample-position>
+            <description/>
+            <units>deg/s</units>
+            <range max="146.18" min="-117.68"/>
+            <color>0,0,255</color>
+        </track>
+        <track derivative="0" name="GZ">
+            <property key="detect-range" value="true"/>
+            <sample-position>
+                <pos col="3" row="0"/>
+            </sample-position>
+            <description/>
+            <units>deg/s</units>
+            <range max="235.47" min="-244.02"/>
+            <color>51,255,51</color>
+        </track>
+    </tracksource>
+    <tracksource sample-type="Unknown" source-url="file:///Users/ishitadatta/GeorgiaTech/Sem 3/Animal-Interation/Data collection/imu_accel_clean_for_elan.txt">
+        <property key="provider" value="mpi.eudico.client.annotator.timeseries.csv.CSVServiceProvider"/>
+    </tracksource>
+</timeseries>

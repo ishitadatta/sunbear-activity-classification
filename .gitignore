@@ -1,0 +1,18 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.log
+
+# Prevent accidental inclusion of large non-project course docs
+*.pdf
+*.docx
+*.pptx
+~$*
+
+*.MOV
+
+*.MOV
